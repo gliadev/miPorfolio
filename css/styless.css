@@ -134,6 +134,20 @@ body {
   border-top-right-radius: 10px;
 }
 
+.card-img-container {
+  height: 200px; /* Ajusta esta altura según sea necesario */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-container img {
+  height: 100%;
+  width: auto;
+}
+
+
 .card .btn-primary {
   background-color: #ffcc00;
   border: none;
