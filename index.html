@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/78279221?v=4"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -53,7 +54,7 @@
     </div>
 </header>
 
-<section id="about" class="section bg-dark text-white">
+<section id="about" class="section bg-dark text-white parallax">
     <div class="container">
         <div class="section-title">
             <h2>Sobre mí</h2>
@@ -81,82 +82,71 @@
     </div>
 </section>
 
-<section id="skills" class="section">
+<section id="skills" class="section bg-dark text-white">
     <div class="container">
         <div class="section-title">
             <h2>Habilidades Técnicas</h2>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="skills-category">
-                    <div class="skills-category-title">Frontend</div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="skills-grid">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/A8Vg4g1VOmxTBauiKKUP-Xp_aOjTkbg9Tqda5qwTgmc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYxL0hU/TUw1X2xvZ29fYW5k/X3dvcmRtYXJrLnN2/Zy8yMjBweC1IVE1M/NV9sb2dvX2FuZF93/b3JkbWFyay5zdmcu/cG5n" alt="HTML5" class="img-fluid">
                         <h4>HTML5</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/0DqVtjbUZKbKQ1Omq6wjOJ8E3gIfgXCO-hJNkqSG7ok/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYyL0NT/UzNfbG9nby5zdmcv/MjIwcHgtQ1NTM19s/b2dvLnN2Zy5wbmc" alt="CSS3" class="img-fluid">
                         <h4>CSS3</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/3Pn8xwXC3gNWs--vNoveU2C2JTCCbna_PA5qmNRQfb4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91c2Vy/LWltYWdlcy5naXRo/dWJ1c2VyY29udGVu/dC5jb20vMzk2MjY0/NTEvMTkyODk4MjUw/LTcxMWUyMjgxLWFi/MDMtNDMzYS1hZmVi/LTRhZDU0MmI2OGE1/Yi5wbmc" alt="Bootstrap" class="img-fluid">
                         <h4>Bootstrap</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/ooUHuLjB7LHjNiD2L9e-jqaZkbYBsw4YHyx-wA_-wuE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk5L1Vu/b2ZmaWNpYWxfSmF2/YVNjcmlwdF9sb2dv/XzIuc3ZnLzIyMHB4/LVVub2ZmaWNpYWxf/SmF2YVNjcmlwdF9s/b2dvXzIuc3ZnLnBu/Zw" alt="JavaScript" class="img-fluid">
                         <h4>JavaScript</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
-                      <img src="https://imgs.search.brave.com/48msZw8HC-WeLil8MQX0uL2KSdW3Q9T58pUQN7drkDU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC90eXBlc2Ny/aXB0LWljb24taWNv/bi01MTJ4NTEyLXlo/MHl1M3RhLnBuZw" alt="TypeScript" class="img-fluid">
-                      <h4>TypeScript</h4>
-                  </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
+                        <img src="https://imgs.search.brave.com/48msZw8HC-WeLil8MQX0uL2KSdW3Q9T58pUQN7drkDU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC90eXBlc2Ny/aXB0LWljb24taWNv/bi01MTJ4NTEyLXlo/MHl1M3RhLnBuZw" alt="TypeScript" class="img-fluid">
+                        <h4>TypeScript</h4>
+                    </div>
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/7qvu_dNY6EHodkmP_bm3akDMDUiYjSxk35Bv3XuOjuA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS93aGF0aXMvaW1n/X3JlYWN0LmpwZw" alt="React" class="img-fluid">
                         <h4>React</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="Angular" class="img-fluid">
                         <h4>Angular</h4>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="skills-category">
-                    <div class="skills-category-title">Backend</div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/lSgctGJEA6Ip8k5nTzzI42uLaS2htMY2x18idt5msRs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzE1/OS9QTkcvOTYvamF2/YV8yMjUyMy5wbmc" alt="Java" class="img-fluid">
                         <h4>Java</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/sDXS3IWHlItL53Dwu4oDtG8-5ydhvhQW28ByBeYMru8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MTUyZmNlZjEw/MTRjMGI1ZTQ5Njcu/cG5n" alt="Python" class="img-fluid">
                         <h4>Python</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/z3c5QiLOwynFt2L8BbC7Fm4wEhJdIkBZ-viULjWtboM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ub2RlLWpz/LWljb24tNDU0eDUx/Mi1uenRvZngxNy5w/bmc" alt="Node.js" class="img-fluid">
                         <h4>Node.js</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/6lHxBgRoJ7Yy405ITGS8dhRMVHPgaXtdT-l8BGSmBM8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9NeVNRTC9N/eVNRTC1Mb2dvLndp/bmUuc3Zn.svg" alt="MySQL" class="img-fluid">
                         <h4>MySQL</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
-                        <img src="https://imgs.search.brave.com/hR8qPvB2loKawEWVHh75GuwMCkQVWwzRraJkq778EeE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9tb25nb2Ri/LWNvbXBhc3MtaWNv/bi0yNTZ4MjU1LTBt/Y2Rnb3h4LnBuZw" alt="MongoDB" class="img-fluid">
+                    <div class="skill-card">
+                        <img src="https://imgs.search.brave.com/hR8qPvB2loKawEWVHh75GuwMCkQVWwzRraJkq778EeE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9NeVNRTC9N/eVNRTC1Mb2dvLndp/bmUuc3Zn.svg" alt="MongoDB" class="img-fluid">
                         <h4>MongoDB</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt=".net" class="img-fluid">
                         <h4>.Net</h4>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="skills-category">
-                    <div class="skills-category-title">Desarrollo Móvil</div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/WjShtAgNAVTkqgZnvAeHsasmxDsgC0I8DGLlXZtp_FY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MmNlNGNlZjEw/MTRjMGI1ZTRhNGMu/cG5n" alt="Swift" class="img-fluid">
                         <h4>Swift</h4>
                     </div>
-                    <div class="skill-card animate__animated animate__fadeIn text-center">
+                    <div class="skill-card">
                         <img src="https://imgs.search.brave.com/cx3h-nEkZwmWIoAjcQDTLwIbw8k2U_2rf4I4-c9jyi4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9kZXZl/bG9wZXIuYXBwbGUu/Y29tL2Fzc2V0cy9l/bGVtZW50cy9pY29u/cy9zd2lmdHVpL3N3/aWZ0dWktOTZ4OTZf/MngucG5n" alt="SwiftUI" class="img-fluid">
                         <h4>SwiftUI</h4>
                     </div>
@@ -194,7 +184,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Mi Porfolio</h5>
                                 <p class="card-text">Porfolio personal para practicar mis habilidades.</p>
-                                <a href="" class="btn btn-primary">Enlace a Git</a>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Ir al sitio</a>
                             </div>
                         </div>
                     </div>
@@ -206,7 +196,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Nutriglesias Web</h5>
                                 <p class="card-text">Web Consulta Hugo Iglesias Nutricion.</p>
-                                <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ver más</a>
+                                <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ir al sitio</a>
                             </div>
                         </div>
                     </div>
@@ -218,7 +208,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">The Manga Keeper</h5>
                                 <p class="card-text">Proyecto final SDP23</p>
-                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary">Enlace a Git</a>
+                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -242,7 +232,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">The MovieDB Proyect</h5>
                                 <p class="card-text">Ejercicio practico durante las Tutorias del SDP23</p>
-                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary">Enlace a Git</a>
+                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -259,7 +249,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">The Manga Keeper</h5>
                                 <p class="card-text">Proyecto final SDP23</p>
-                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary">Enlace a Git</a>
+                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -271,7 +261,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">The MovieDB Proyect</h5>
                                 <p class="card-text">Ejercicio practico durante las Tutorias del SDP23</p>
-                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary">Enlace a Git</a>
+                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -289,7 +279,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Mi Porfolio</h5>
                                 <p class="card-text">Porfolio personal para practicar mis habilidades.</p>
-                                <a href="" class="btn btn-primary">Enlace a Git</a>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Más información</a>
                             </div>
                         </div>
                     </div>
@@ -324,7 +314,6 @@
     </div>
 </section>
 
-
 <section id="timeline" class="section">
     <div class="section-title">
         <h2>TimeLine</h2>
@@ -350,10 +339,9 @@
             <div class="card bg-secondary text-white">
               <div class="card-body p-4">
                 <h3>2024</h3>
-                <p class="mb-0">Certificacon .net
-                </p>
-                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2022">Saber más</a>
-                <div id="details2022" class="collapse mt-3">
+                <p class="mb-0">Certificacon .net</p>
+                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2024-net">Saber más</a>
+                <div id="details2024-net" class="collapse mt-3">
                   <p>Programa Laborlan formación especializada en el desarrollo de aplicaciones cloud con tecnología .Net, obteniendo el Certificado de Profesionalidad IFCD 0210 en "Desarrollo de aplicaciones con tecnología web". El programa incluyó programación web en el entorno cliente, entorno servidor y la implantación de aplicaciones web en internet, intranet y extranet.</p>
                   <p><strong>Tecnologías utilizadas:</strong> HTML, CSS, BOOTSTRAP, JavaScript, typeScript, C# y SQL, .NET 7 Entity Framework Core, Angular, Visual Studio y Git,  Clean Architecture, principios SOLID. cloud y DevOps con Azure DevOps. </p>
                   <a href="https://www.dema.eus/busco-empleo/programas-mixtos-de-formacion-y-empleo/programacion-y-desarrollo-de-aplicaciones-web-net/" target="_blank" class="btn btn-light mt-2">Más información</a>
@@ -382,8 +370,8 @@
               <div class="card-body p-4">
                 <h3>2024</h3>
                 <p class="mb-0"> 100 días de Swift - SwiftUI by Paul Huddson </p>
-                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2022">Saber más</a>
-                <div id="details2022" class="collapse mt-3">
+                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2024-swift">Saber más</a>
+                <div id="details2024-swift" class="collapse mt-3">
                   <p>Estoy participando en el curso "100 días de SwiftUI" de Paul Hudson en Hacking with Swift, una colección gratuita de videos, tutoriales y pruebas diseñada para enseñar SwiftUI de manera efectiva. Este curso está actualizado para iOS 17 y requiere Xcode 15.3 o posterio</p>
                   <p><strong>Tecnologías utilizadas:</strong> Swift, SwiftUI, Xcode, GIT</p>
                   <a href="https://www.hackingwithswift.com/100/swiftui" target="_blank" class="btn btn-light mt-2">Más información</a>
@@ -397,48 +385,28 @@
     </div>
 </section>
 
-<!-- <section id="contact" class="section bg-secondary">
+<footer class="footer bg-dark text-white text-center py-4">
     <div class="container">
-        <div class="section-title">
-            <h2>Contacto</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Introduce email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
-                    </div>
-                    <div class="mb-3">
-                        <label for="floatingTextarea" class="form-label">Mensaje</label>
-                        <textarea class="form-control" placeholder="Escribe aquí tu mensaje" id="floatingTextarea"></textarea>
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Estoy de acuerdo</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-            </div>
-            <div class="col-md-6 text-center">
-                <h3>Sígueme</h3>
-                <div class="social-icons">
-                    <a href="https://x.com/gliatem" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/gliadev" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
+        <p class="mb-0">&copy; 2023 Adolfo. Todos los derechos reservados.</p>
+        <div class="social-icons mt-2">
+            <a href="https://x.com/gliatem" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/gliadev" target="_blank" class="me-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
-</section> -->
-
-<footer class="footer">
-    <p>&copy; 2023 Adolfo. Todos los derechos reservados.</p>
 </footer>
 
 <script src="./js/bootstrap.bundle.min.js"></script>
 <script>
     new WOW().init();
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('scrolled');
+        } else {
+            $('.navbar').removeClass('scrolled');
+        }
+    });
 </script>
 </body>
 </html>
