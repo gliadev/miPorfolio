@@ -6,7 +6,7 @@ Bienvenido a mi portafolio de desarrollo móvil y web. Este repositorio contiene
 
 Puedes ver mi portafolio publicado en GitHub Pages en el siguiente enlace:
 
-[Portafolio de Adolfo Gomez](https://gliadev.github.io/miPorfolio/)
+[Mi sitio WEB ](https://gliadev.github.io/miPorfolio/)
 
 ## 📑 Contenido del Portafolio
 
