@@ -1,219 +1,276 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio | Adolfo Gomez</title>
-    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styless.css">
-    <link href="./css/animate.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/78279221?v=4"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="./css/animate.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/78279221?v=4" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="https://avatars.githubusercontent.com/u/78279221?v=4" alt="gliaDev">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://avatars.githubusercontent.com/u/78279221?v=4" alt="gliaDev">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">TimeLine</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/gliadev/" target="_blank">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__fadeInDown">Hola, soy Adolfo @gliaDev</h1>
+            <p class="lead animate__animated animate__fadeInUp">Desarrollador Junior iOS y Web</p>
+            <a href="https://www.linkedin.com/in/gliadev/" target="_blank"
+                class="btn btn-light btn-lg animate__animated animate__fadeInUp">Contáctame</a>
+        </div>
+    </header>
+    <!-- sobre mi -->
+    <section id="about" class="section bg-dark text-white parallax">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre mí</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>👋 <strong>Hola a todos!</strong> Soy Adolfo, un apasionado de la programación y el diseño.
+                        Quiero compartir un poco de mi viaje contigo:</p>
+                    <p>🚑 Comencé mi carrera como <strong>Técnico en Emergencias Sanitarias</strong> en un Soporte Vital
+                        Avanzado de Enfermería (SVAe). Nuestro trabajo consistía en la atención sanitaria de emergencias
+                        y urgencias, apoyando a otros recursos tanto en la atención como en rescates. Durante estos
+                        años, viví todo tipo de situaciones y, trabajando bajo una intensa presión, aprendí a mantener
+                        la calma y priorizar tareas. Estas habilidades ahora las aplico en la resolución de problemas
+                        técnicos.</p>
+                    <p>💡 Algo que me enseñó la emergencia fue a encontrar soluciones rápidas y eficaces. Problema
+                        encontrado, problema resuelto. Siempre buscamos mejorar, aunque sea un poco, la situación de las
+                        personas que nos necesitaban en ese momento.</p>
+                    <p>🏊‍♂️ Practicaba triatlón de corta y media distancia hasta que una lesión deportiva me obligó a
+                        reevaluar mis metas. El proceso de recuperación fue largo, duro y doloroso, con momentos de
+                        mucho desánimo. Sin embargo, cada pequeño avance me daba más energía para continuar. Este
+                        desafío continuo para recuperar mi capacidad me enseñó la importancia de la accesibilidad y la
+                        resiliencia.</p>
+                    <p>💻 Mi pasión por la tecnología me llevó a participar en el BootCamp de Code4Jobs, donde descubrí
+                        el fascinante mundo del desarrollo fullstack web. Durante el BootCamp, trabajé en varios
+                        proyectos y disfruté especialmente aprendiendo JavaScript y React, ya que me permitieron crear
+                        interfaces interactivas y dinámicas. Esto me motivó a seguir aprendiendo y me inscribí en el
+                        grado superior de <strong>Diseño de Aplicaciones Multiplataforma</strong> en la UAX. Cursé el
+                        primer año con entusiasmo, pero el año pasado tuve que tomar la decisión de hacer una pausa
+                        debido a un tema personal que en ese momento necesitaba toda mi atención para llevarlo a buen
+                        término.</p>
+                    <p>📱 El <strong>Swift Developer Program</strong> me permitió explorar Swift, SwiftUI y VisionOS,
+                        ampliando mis habilidades y conocimientos. Uno de los aspectos más destacados fue la toma de
+                        contacto con la nueva tecnología de VisionOS para crear experiencias inmersivas. La experiencia
+                        en el programa ha sido increíble, permitiéndome trabajar en proyectos desafiantes y aprender de
+                        expertos como Julio César Fernández.</p>
+                    <p>🔧 Ahora, estoy decidido a seguir creciendo en el desarrollo móvil, combinando mis habilidades
+                        técnicas con la capacidad de enfrentar y resolver problemas bajo presión. A corto plazo, mi
+                        objetivo es especializarme en el desarrollo de aplicaciones con Swift y SwiftUI, continuando mi
+                        formación y aprendizaje continuo para mejorar mis habilidades. A largo plazo, quiero ayudar y
+                        desarrollar soluciones innovadoras que mejoren la calidad de vida de las personas, especialmente
+                        aquellas con dificultades de aprendizaje, un tema que me toca de cerca. Estoy emocionado por las
+                        oportunidades que el futuro me depara y por seguir haciendo aplicaciones que realmente marquen
+                        una diferencia en la vida de las personas.</p>
+                    <p>🙏 Gracias por tomarte un momento para leer todo esto.</p>
+                    <div class="d-flex align-items-center" id="contact-socials">
+                        <a href="https://github.com/gliadev/miPorfolio/blob/main/docs/Adolfo%20Gomez%20Losada%20IOS%20Junior%20DEV.pdf"
+                            class="btn btn-primary me-3">Descargar CV</a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/gliadev" target="_blank" class="me-2"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://x.com/gliatem" target="_blank" class="me-2"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-title">
+                <h2>Habilidades Técnicas</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/A8Vg4g1VOmxTBauiKKUP-Xp_aOjTkbg9Tqda5qwTgmc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYxL0hU/TUw1X2xvZ29fYW5k/X3dvcmRtYXJrLnN2/Zy8yMjBweC1IVE1M/NV9sb2dvX2FuZF93/b3JkbWFyay5zdmcu/cG5n"
+                                alt="HTML5" class="img-fluid">
+                            <h4>HTML5</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/0DqVtjbUZKbKQ1Omq6wjOJ8E3gIfgXCO-hJNkqSG7ok/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYyL0NT/UzNfbG9nby5zdmcv/MjIwcHgtQ1NTM19s/b2dvLnN2Zy5wbmc"
+                                alt="CSS3" class="img-fluid">
+                            <h4>CSS3</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/3Pn8xwXC3gNWs--vNoveU2C2JTCCbna_PA5qmNRQfb4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91c2Vy/LWltYWdlcy5naXRo/dWJ1c2VyY29udGVu/dC5jb20vMzk2MjY0/NTEvMTkyODk4MjUw/LTcxMWUyMjgxLWFi/MDMtNDMzYS1hZmVi/LTRhZDU0MmI2OGE1/Yi5wbmc"
+                                alt="Bootstrap" class="img-fluid">
+                            <h4>Bootstrap</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/ooUHuLjB7LHjNiD2L9e-jqaZkbYBsw4YHyx-wA_-wuE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk5L1Vu/b2ZmaWNpYWxfSmF2/YVNjcmlwdF9sb2dv/XzIuc3ZnLzIyMHB4/LVVub2ZmaWNpYWxf/SmF2YVNjcmlwdF9s/b2dvXzIuc3ZnLnBu/Zw"
+                                alt="JavaScript" class="img-fluid">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/48msZw8HC-WeLil8MQX0uL2KSdW3Q9T58pUQN7drkDU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC90eXBlc2Ny/aXB0LWljb24taWNv/bi01MTJ4NTEyLXlo/MHl1M3RhLnBuZw"
+                                alt="TypeScript" class="img-fluid">
+                            <h4>TypeScript</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/7qvu_dNY6EHodkmP_bm3akDMDUiYjSxk35Bv3XuOjuA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS93aGF0aXMvaW1n/X3JlYWN0LmpwZw"
+                                alt="React" class="img-fluid">
+                            <h4>React</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png"
+                                alt="Angular" class="img-fluid">
+                            <h4>Angular</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/lSgctGJEA6Ip8k5nTzzI42uLaS2htMY2x18idt5msRs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzE1/OS9QTkcvOTYvamF2/YV8yMjUyMy5wbmc"
+                                alt="Java" class="img-fluid">
+                            <h4>Java</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/sDXS3IWHlItL53Dwu4oDtG8-5ydhvhQW28ByBeYMru8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MTUyZmNlZjEw/MTRjMGI1ZTQ5Njcu/cG5n"
+                                alt="Python" class="img-fluid">
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/z3c5QiLOwynFt2L8BbC7Fm4wEhJdIkBZ-viULjWtboM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ub2RlLWpz/LWljb24tNDU0eDUx/Mi1uenRvZngxNy5w/bmc"
+                                alt="Node.js" class="img-fluid">
+                            <h4>Node.js</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/6lHxBgRoJ7Yy405ITGS8dhRMVHPgaXtdT-l8BGSmBM8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9NeVNRTC9N/eVNRTC1Mb2dvLndp/bmUuc3Zn.svg"
+                                alt="MySQL" class="img-fluid">
+                            <h4>MySQL</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="./img/mongodb.png" alt="MongoDB" class="img-fluid">
+                            <h4>MongoDB</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png"
+                                alt=".net" class="img-fluid">
+                            <h4>.Net</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/WjShtAgNAVTkqgZnvAeHsasmxDsgC0I8DGLlXZtp_FY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MmNlNGNlZjEw/MTRjMGI1ZTRhNGMu/cG5n"
+                                alt="Swift" class="img-fluid">
+                            <h4>Swift</h4>
+                        </div>
+                        <div class="skill-card">
+                            <img src="https://imgs.search.brave.com/cx3h-nEkZwmWIoAjcQDTLwIbw8k2U_2rf4I4-c9jyi4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9kZXZl/bG9wZXIuYXBwbGUu/Y29tL2Fzc2V0cy9l/bGVtZW50cy9pY29u/cy9zd2lmdHVpL3N3/aWZ0dWktOTZ4OTZf/MngucG5n"
+                                alt="SwiftUI" class="img-fluid">
+                            <h4>SwiftUI</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- proyectos -->
+    <section id="projects" class="section bg-dark">
+        <div class="container">
+            <div class="section-title">
+                <h2>Proyectos</h2>
+            </div>
+            <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#about">Sobre mí</a>
+                    <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab"
+                        aria-controls="all" aria-selected="true">Todos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills">Habilidades</a>
+                    <a class="nav-link" id="ios-tab" data-bs-toggle="tab" href="#ios" role="tab" aria-controls="ios"
+                        aria-selected="false">iOS</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#timeline">TimeLine</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/gliadev/" target="_blank">Contacto</a>
+                    <a class="nav-link" id="web-tab" data-bs-toggle="tab" href="#web" role="tab" aria-controls="web"
+                        aria-selected="false">Web</a>
                 </li>
             </ul>
-        </div>
-    </div>
-</nav>
-
-<header class="bg-primary text-white text-center py-5">
-    <div class="container">
-        <h1 class="display-4 animate__animated animate__fadeInDown">Hola, soy Adolfo @gliaDev</h1>
-        <p class="lead animate__animated animate__fadeInUp">Desarrollador Junior iOS y Web</p>
-        <a href="https://www.linkedin.com/in/gliadev/" target="_blank" class="btn btn-light btn-lg animate__animated animate__fadeInUp">Contáctame</a>
-    </div>
-</header>
-<!-- sobre mi -->
-<section id="about" class="section bg-dark text-white parallax">
-    <div class="container">
-        <div class="section-title">
-            <h2>Sobre mí</h2>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p>👋 <strong>Hola a todos!</strong> Soy Adolfo, un apasionado de la programación y el diseño. Quiero compartir un poco de mi viaje contigo:</p>
-                <p>🚑 Comencé mi carrera como <strong>Técnico en Emergencias Sanitarias</strong> en un Soporte Vital Avanzado de Enfermería (SVAe). Nuestro trabajo consistía en la atención sanitaria de emergencias y urgencias, apoyando a otros recursos tanto en la atención como en rescates. Durante estos años, viví todo tipo de situaciones y, trabajando bajo una intensa presión, aprendí a mantener la calma y priorizar tareas. Estas habilidades ahora las aplico en la resolución de problemas técnicos.</p>
-                <p>💡 Algo que me enseñó la emergencia fue a encontrar soluciones rápidas y eficaces. Problema encontrado, problema resuelto. Siempre buscamos mejorar, aunque sea un poco, la situación de las personas que nos necesitaban en ese momento.</p>
-                <p>🏊‍♂️ Practicaba triatlón de corta y media distancia hasta que una lesión deportiva me obligó a reevaluar mis metas. El proceso de recuperación fue largo, duro y doloroso, con momentos de mucho desánimo. Sin embargo, cada pequeño avance me daba más energía para continuar. Este desafío continuo para recuperar mi capacidad me enseñó la importancia de la accesibilidad y la resiliencia.</p>
-                <p>💻 Mi pasión por la tecnología me llevó a participar en el BootCamp de Code4Jobs, donde descubrí el fascinante mundo del desarrollo fullstack web. Durante el BootCamp, trabajé en varios proyectos y disfruté especialmente aprendiendo JavaScript y React, ya que me permitieron crear interfaces interactivas y dinámicas. Esto me motivó a seguir aprendiendo y me inscribí en el grado superior de <strong>Diseño de Aplicaciones Multiplataforma</strong> en la UAX. Cursé el primer año con entusiasmo, pero el año pasado tuve que tomar la decisión de hacer una pausa debido a un tema personal que en ese momento necesitaba toda mi atención para llevarlo a buen término.</p>
-                <p>📱 El <strong>Swift Developer Program</strong> me permitió explorar Swift, SwiftUI y VisionOS, ampliando mis habilidades y conocimientos. Uno de los aspectos más destacados fue la toma de contacto con la nueva tecnología de VisionOS para crear experiencias inmersivas. La experiencia en el programa ha sido increíble, permitiéndome trabajar en proyectos desafiantes y aprender de expertos como Julio César Fernández.</p>
-                <p>🔧 Ahora, estoy decidido a seguir creciendo en el desarrollo móvil, combinando mis habilidades técnicas con la capacidad de enfrentar y resolver problemas bajo presión. A corto plazo, mi objetivo es especializarme en el desarrollo de aplicaciones con Swift y SwiftUI, continuando mi formación y aprendizaje continuo para mejorar mis habilidades. A largo plazo, quiero ayudar y desarrollar soluciones innovadoras que mejoren la calidad de vida de las personas, especialmente aquellas con dificultades de aprendizaje, un tema que me toca de cerca. Estoy emocionado por las oportunidades que el futuro me depara y por seguir haciendo aplicaciones que realmente marquen una diferencia en la vida de las personas.</p>
-                <p>🙏 Gracias por tomarte un momento para leer todo esto.</p>
-                <div class="d-flex align-items-center" id="contact-socials" >
-                    <a href="https://github.com/gliadev/miPorfolio/blob/main/docs/Adolfo%20Gomez%20Losada%20IOS%20Junior%20DEV.pdf" class="btn btn-primary me-3">Descargar CV</a>
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/gliadev" target="_blank" class="me-2"><i class="fab fa-github"></i></a>
-                        <a href="https://x.com/gliatem" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Habilidades -->
-<section id="skills" class="section bg-dark text-white">
-    <div class="container">
-        <div class="section-title">
-            <h2>Habilidades Técnicas</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="skills-grid">
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/A8Vg4g1VOmxTBauiKKUP-Xp_aOjTkbg9Tqda5qwTgmc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYxL0hU/TUw1X2xvZ29fYW5k/X3dvcmRtYXJrLnN2/Zy8yMjBweC1IVE1M/NV9sb2dvX2FuZF93/b3JkbWFyay5zdmcu/cG5n" alt="HTML5" class="img-fluid">
-                        <h4>HTML5</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/0DqVtjbUZKbKQ1Omq6wjOJ8E3gIfgXCO-hJNkqSG7ok/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi82LzYyL0NT/UzNfbG9nby5zdmcv/MjIwcHgtQ1NTM19s/b2dvLnN2Zy5wbmc" alt="CSS3" class="img-fluid">
-                        <h4>CSS3</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/3Pn8xwXC3gNWs--vNoveU2C2JTCCbna_PA5qmNRQfb4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91c2Vy/LWltYWdlcy5naXRo/dWJ1c2VyY29udGVu/dC5jb20vMzk2MjY0/NTEvMTkyODk4MjUw/LTcxMWUyMjgxLWFi/MDMtNDMzYS1hZmVi/LTRhZDU0MmI2OGE1/Yi5wbmc" alt="Bootstrap" class="img-fluid">
-                        <h4>Bootstrap</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/ooUHuLjB7LHjNiD2L9e-jqaZkbYBsw4YHyx-wA_-wuE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi85Lzk5L1Vu/b2ZmaWNpYWxfSmF2/YVNjcmlwdF9sb2dv/XzIuc3ZnLzIyMHB4/LVVub2ZmaWNpYWxf/SmF2YVNjcmlwdF9s/b2dvXzIuc3ZnLnBu/Zw" alt="JavaScript" class="img-fluid">
-                        <h4>JavaScript</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/48msZw8HC-WeLil8MQX0uL2KSdW3Q9T58pUQN7drkDU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC90eXBlc2Ny/aXB0LWljb24taWNv/bi01MTJ4NTEyLXlo/MHl1M3RhLnBuZw" alt="TypeScript" class="img-fluid">
-                        <h4>TypeScript</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/7qvu_dNY6EHodkmP_bm3akDMDUiYjSxk35Bv3XuOjuA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNzY2hvb2xzLmNv/bS93aGF0aXMvaW1n/X3JlYWN0LmpwZw" alt="React" class="img-fluid">
-                        <h4>React</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="Angular" class="img-fluid">
-                        <h4>Angular</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/lSgctGJEA6Ip8k5nTzzI42uLaS2htMY2x18idt5msRs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzE1/OS9QTkcvOTYvamF2/YV8yMjUyMy5wbmc" alt="Java" class="img-fluid">
-                        <h4>Java</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/sDXS3IWHlItL53Dwu4oDtG8-5ydhvhQW28ByBeYMru8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MTUyZmNlZjEw/MTRjMGI1ZTQ5Njcu/cG5n" alt="Python" class="img-fluid">
-                        <h4>Python</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/z3c5QiLOwynFt2L8BbC7Fm4wEhJdIkBZ-viULjWtboM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9ub2RlLWpz/LWljb24tNDU0eDUx/Mi1uenRvZngxNy5w/bmc" alt="Node.js" class="img-fluid">
-                        <h4>Node.js</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/6lHxBgRoJ7Yy405ITGS8dhRMVHPgaXtdT-l8BGSmBM8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9NeVNRTC9N/eVNRTC1Mb2dvLndp/bmUuc3Zn.svg" alt="MySQL" class="img-fluid">
-                        <h4>MySQL</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="./img/mongodb.png" alt="MongoDB" class="img-fluid">
-                        <h4>MongoDB</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt=".net" class="img-fluid">
-                        <h4>.Net</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/WjShtAgNAVTkqgZnvAeHsasmxDsgC0I8DGLlXZtp_FY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MmNlNGNlZjEw/MTRjMGI1ZTRhNGMu/cG5n" alt="Swift" class="img-fluid">
-                        <h4>Swift</h4>
-                    </div>
-                    <div class="skill-card">
-                        <img src="https://imgs.search.brave.com/cx3h-nEkZwmWIoAjcQDTLwIbw8k2U_2rf4I4-c9jyi4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9kZXZl/bG9wZXIuYXBwbGUu/Y29tL2Fzc2V0cy9l/bGVtZW50cy9pY29u/cy9zd2lmdHVpL3N3/aWZ0dWktOTZ4OTZf/MngucG5n" alt="SwiftUI" class="img-fluid">
-                        <h4>SwiftUI</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- proyectos -->
-<section id="projects" class="section bg-dark">
-    <div class="container">
-        <div class="section-title">
-            <h2>Proyectos</h2>
-        </div>
-        <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Todos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="ios-tab" data-bs-toggle="tab" href="#ios" role="tab" aria-controls="ios" aria-selected="false">iOS</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" id="web-tab" data-bs-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="false">Web</a>
-            </li>
-        </ul>
-        <div class="tab-content" id="projectTabsContent">
-            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/porfolio.png" class="card-img-top" alt="Porfolio">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Mi Porfolio</h5>
-                                <p class="card-text">Porfolio personal mostrar mi KungFu.</p>
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Ir al sitio</a>
+            <div class="tab-content" id="projectTabsContent">
+                <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="card animate__animated animate__fadeInUp">
+                                <div class="card-img-container">
+                                    <img src="./img/porfolio.png" class="card-img-top" alt="Porfolio">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Mi Porfolio</h5>
+                                    <p class="card-text">Porfolio personal mostrar mi KungFu.</p>
+                                    <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#project1Modal">Ir al sitio</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/webNutriglesias2.png" class="card-img-top" alt="Nutriglesias web">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Nutriglesias Web</h5>
-                                <p class="card-text">Web Consulta Hugo Iglesias Nutricion.</p>
-                                <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ir al sitio</a>
+                        <div class="col-md-4">
+                            <div class="card animate__animated animate__fadeInUp">
+                                <div class="card-img-container">
+                                    <img src="./img/webNutriglesias2.png" class="card-img-top" alt="Nutriglesias web">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nutriglesias Web</h5>
+                                    <p class="card-text">Web Consulta Hugo Iglesias Nutricion.</p>
+                                    <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ir al
+                                        sitio</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/TheMangaKeeper.png" class="card-img-top" alt="The Manga Keeper">
-                            </div>
-                            <di v class="card-body">
-                                <h5 class="card-title">The Manga Keeper</h5>
-                                <p class="card-text">Proyecto final SDP23</p>
-                                <a href="https://github.com/gliadev/TheMangaKeeper" target="_blank" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
+                        <div class="col-md-4">
+                            <div class="card animate__animated animate__fadeInUp">
+                                <div class="card-img-container">
+                                    <img src="./img/TheMangaKeeper.png" class="card-img-top" alt="The Manga Keeper">
+                                </div>
+                                <di v class="card-body">
+                                    <h5 class="card-title">The Manga Keeper</h5>
+                                    <p class="card-text">Proyecto final SDP23</p>
+                                    <a href="https://github.com/gliadev/TheMangaKeeper" target="_blank"
+                                        class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#project2Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -224,8 +281,10 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">NutriApp</h5>
-                                <p class="card-text">Proyecto BootCamp Code4Jobs aplicacion gestion consulta nutricion.</p>
-                                <a href="https://github.com/gliadev/nutriapp" class="btn btn-primary" target="_blank">Código GitHub</a>
+                                <p class="card-text">Proyecto BootCamp Code4Jobs aplicacion gestion consulta nutricion.
+                                </p>
+                                <a href="https://github.com/gliadev/nutriapp" class="btn btn-primary"
+                                    target="_blank">Código GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -237,7 +296,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">The MovieDB Proyect</h5>
                                 <p class="card-text">Ejercicio practico durante las Tutorias del SDP23</p>
-                                <a href="https://github.com/gliadev/TheMangaKeeper.git" class="btn btn-primary" target="_blank">Código GitHub</a>
+                                <a href="https://github.com/gliadev/TheMangaKeeper.git" class="btn btn-primary"
+                                    target="_blank">Código GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -256,8 +316,12 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">The Manga Keeper</h5>
-                                <p class="card-text">Proyecto final SDP23, Gestion de coleccion de Mangas, peticion API control de errores, listado, detalle agregado a coleccion como favorito, control de los volumenes de coleccion, persistenica datos en local, datos de prueba en local para no hacer peticiones continuas a la API, Version Iphone e Ipad</p>
-                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
+                                <p class="card-text">Proyecto final SDP23, Gestion de coleccion de Mangas, peticion API
+                                    control de errores, listado, detalle agregado a coleccion como favorito, control de
+                                    los volumenes de coleccion, persistenica datos en local, datos de prueba en local
+                                    para no hacer peticiones continuas a la API, Version Iphone e Ipad</p>
+                                <a href="https://github.com/gliadev/TheMangaKeeper" class="btn btn-primary"
+                                    data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -270,12 +334,15 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Notas App & Test</h5>
-                                <p class="card-text">Practica NotasApp, Gestion notas Persistencia datos con SwiftData y practica de
-                                    Unit Tests, Integration Tests, Mocks e Inyección de Dependencias, Snapshot Tests, UITests.
+                                <p class="card-text">Practica NotasApp, Gestion notas Persistencia datos con SwiftData y
+                                    practica de
+                                    Unit Tests, Integration Tests, Mocks e Inyección de Dependencias, Snapshot Tests,
+                                    UITests.
                                 </p>
-                                <a href="https://github.com/gliadev/Notas?tab=readme-ov-file" class="btn btn-primary" target="_blank">Codigo GitHub</a>
+                                <a href="https://github.com/gliadev/Notas?tab=readme-ov-file" class="btn btn-primary"
+                                    target="_blank">Codigo GitHub</a>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
                     <!-- Proyecto The MovieDB -->
@@ -286,186 +353,266 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">The MovieDB Proyect</h5>
-                                <p class="card-text">Practica TheMovieBD, Peticion API del top10, Gestion de errores, listado, detalle pelicula y reparto, link al trailer al Yotube </p>
-                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary" target="_blank">Codigo GitHub</a>
+                                <p class="card-text">Practica TheMovieBD, Peticion API del top10, Gestion de errores,
+                                    listado, detalle pelicula y reparto, link al trailer al Yotube </p>
+                                <a href="https://github.com/gliadev/TheMovieBDProject" class="btn btn-primary"
+                                    target="_blank">Codigo GitHub</a>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
                     <!--Proyecto Employees-->
                     <div class="col-md-4"></div>
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/Employees.png" class="card-img-top" alt="Employees">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Employees</h5>
-                                <p class="card-text">Practica Employees Peticion API Gestion de errores, busqueda por filtrado</p>
-                                <a href="https://github.com/gliadev/EmployeesAPP" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
-                            </div>
+                    <div class="card animate__animated animate__fadeInUp">
+                        <div class="card-img-container">
+                            <img src="./img/Employees.png" class="card-img-top" alt="Employees">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Employees</h5>
+                            <p class="card-text">Practica Employees Peticion API Gestion de errores, busqueda por
+                                filtrado</p>
+                            <a href="https://github.com/gliadev/EmployeesAPP" class="btn btn-primary"
+                                data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
                         </div>
                     </div>
+                </div>
 
-                    <!--Proyecto Rick&Morty-->
-                    <div class="col-md-4"></div>
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/Employees.png" class="card-img-top" alt="Ricky&Morty">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Ricky&Morty</h5>
-                                <p class="card-text">Practica Ricky & Morty Peticion API Gestion de errores, listado y vista detalle.</p>
-                                <a href="https://github.com/gliadev/RickAndMorty" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Codigo GitHub</a>
-                            </div>
-                        </div>
+                <!--Proyecto Rick&Morty-->
+                <div class="col-md-4"></div>
+                <div class="card animate__animated animate__fadeInUp">
+                    <div class="card-img-container">
+                        <img src="./img/Employees.png" class="card-img-top" alt="Ricky&Morty">
                     </div>
-
-                    <!-- Proyectos iOS  -->
+                    <div class="card-body">
+                        <h5 class="card-title">Ricky&Morty</h5>
+                        <p class="card-text">Practica Ricky & Morty Peticion API Gestion de errores, listado y vista
+                            detalle.</p>
+                        <a href="https://github.com/gliadev/RickAndMorty" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#project2Modal">Codigo GitHub</a>
+                    </div>
                 </div>
             </div>
-            
-            <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/porfolio.png" class="card-img-top" alt="Porfolio">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Mi Porfolio</h5>
-                                <p class="card-text">Porfolio personal para practicar mis habilidades.</p>
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Más información</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/webNutriglesias2.png" class="card-img-top" alt="Nutriglesias web">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Nutriglesias Web</h5>
-                                <p class="card-text">Web Consulta Hugo Iglesias Nutricion.</p>
-                                <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card animate__animated animate__fadeInUp">
-                            <div class="card-img-container">
-                                <img src="./img/nutriAPP.png" class="card-img-top" alt="nutriAPP">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">NutriApp</h5>
-                                <p class="card-text">Proyecto BootCamp Code4Jobs aplicacion gestion consulta nutricion.</p>
-                                <a href="https://github.com/gliadev/nutriapp" class="btn btn-primary" target="_blank">Código GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Más proyectos web  -->
-                </div>
-            </div>
+
+            <!-- Proyectos iOS  -->
         </div>
-    </div>
-</section>
-
-<!-- timeLine -->
-<section id="timeline" class="section">
-    <div class="section-title">
-        <h2>TimeLine</h2>
-    </div>
-    <div class="container py-5">
-      <div class="main-timeline">
-        <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
-          <div class="card bg-secondary text-white">
-            <div class="card-body p-4">
-                <h3>2024 - 2025</h3>
-                <p class="mb-0">Grado Superior Diseño Aplicaciones Multiplataforma</p>
-                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2024">Saber más</a>
-                <div id="details2024" class="collapse mt-3">
-                  <p>Desarrollar, implantar, documentar y mantener aplicaciones informáticas multiplataforma, utilizando tecnologías y entornos de desarrollo específicos, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de usabilidad y calidad exigidas en los estándares establecidos.</p>
-                  <p class="mt-3"><strong>Tecnologías utilizadas:</strong> <br> Microsoft, Eclipse, Android Studio, MySQL, Oracle, PyCharm, Unity, MacOS, IntelliJ, Linux, Odoo</p>
-                  <a href="https://www.uax.com/titulaciones/tecnico-superior-en-desarrollo-de-aplicaciones-multiplataforma" target="_blank" class="btn btn-light mt-2">Más información</a>
-              </div>
-            </div>
-          </div>
         </div>
 
-        
-        <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
-            <div class="card bg-secondary text-white">
-              <div class="card-body p-4">
-                <h3>2023 - 2024</h3>
-                <p class="mb-0">Swift Developer Program</p>
-                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2023">Saber más</a>
-                <div id="details2023" class="collapse mt-3">
-                  <p>Fundamentos de la programación, la planificación de proyectos y el uso de Xcode con GIT. Mejorarás la documentación con DooC y añadirás interactividad a tus apps con SwiftUI. Dominarás Swift 5.9 y el manejo de tareas asincrónicas con Async/Await. Desarrollarás apps para iOS y iPadOS con SwiftUI 5 y explorarás el desarrollo en computación espacial con Apple Vision Pro y visionOS.</p>
-                  <p><strong>Tecnologías utilizadas:</strong> Swifit, SwiftUI,  </p>
-                  <a href="https://acoding.academy/formaciones/swift-developer-program/" target="_blank" class="btn btn-light mt-2">Más información</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
-            <div class="card bg-secondary text-white">
-              <div class="card-body p-4">
-                <h3>2024</h3>
-                <p class="mb-0"> 100 días de Swift - SwiftUI by Paul Huddson </p>
-                <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#details2024-swift">Saber más</a>
-                <div id="details2024-swift" class="collapse mt-3">
-                  <p>Estoy participando en el curso "100 días de SwiftUI" de Paul Hudson en Hacking with Swift, una colección gratuita de videos, tutoriales y pruebas diseñada para enseñar SwiftUI de manera efectiva. Este curso está actualizado para iOS 17 y requiere Xcode 15.3 o posterio</p>
-                  <p><strong>Tecnologías utilizadas:</strong> Swift, SwiftUI, Xcode, GIT</p>
-                  <a href="https://www.hackingwithswift.com/100/swiftui" target="_blank" class="btn btn-light mt-2">Más información</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
-            <div class="card bg-secondary text-white">
-                <div class="card-body p-4">
-                    <h3>2024</h3>
-                    <p class="mb-0">Ruta estudio SwiftBeta</p>
-                    <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse" data-bs-target="#detailSwiftBeta">Saber más</a>
-                    <div id="detailSwiftBeta" class="collapse mt-3">
-                        <p>Ruta programacion desde Basico con swift a Avanzado de swiftUI mas introduccion al testing</p>
-                        <p><strong>Tecnologías utilizadas:</strong> Swift, SwiftUI</p>
-                        <a href="https://www.youtube.com/swiftbeta" target="_blank" class="btn btn-light mt-2">Más información</a>
+        <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card animate__animated animate__fadeInUp">
+                        <div class="card-img-container">
+                            <img src="./img/porfolio.png" class="card-img-top" alt="Porfolio">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mi Porfolio</h5>
+                            <p class="card-text">Porfolio personal para practicar mis habilidades.</p>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#project1Modal">Más información</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card animate__animated animate__fadeInUp">
+                        <div class="card-img-container">
+                            <img src="./img/webNutriglesias2.png" class="card-img-top" alt="Nutriglesias web">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nutriglesias Web</h5>
+                            <p class="card-text">Web Consulta Hugo Iglesias Nutricion.</p>
+                            <a href="https://www.nutriglesias.com" class="btn btn-primary" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card animate__animated animate__fadeInUp">
+                        <div class="card-img-container">
+                            <img src="./img/nutriAPP.png" class="card-img-top" alt="nutriAPP">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">NutriApp</h5>
+                            <p class="card-text">Proyecto BootCamp Code4Jobs aplicacion gestion consulta nutricion.</p>
+                            <a href="https://github.com/gliadev/nutriapp" class="btn btn-primary" target="_blank">Código
+                                GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más proyectos web  -->
             </div>
         </div>
-
-
-        <!--  -->
-      </div>
-    </div>
-</section>
-
-<footer class="footer bg-dark text-white text-center py-4">
-    <div class="container">
-        <p class="mb-0">&copy; 2023 Adolfo. Todos los derechos reservados.</p>
-        <div class="social-icons mt-2">
-            <a href="https://x.com/gliatem" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/gliadev" target="_blank" class="me-2"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-    </div>
-</footer>
+        </div>
+    </section>
 
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script>
-    new WOW().init();
-    
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 50) {
-            $('.navbar').addClass('scrolled');
-        } else {
-            $('.navbar').removeClass('scrolled');
-        }
-    });
-</script>
+    <!-- timeLine -->
+    <section id="timeline" class="section">
+        <div class="section-title">
+            <h2>TimeLine</h2>
+        </div>
+
+        <div class="container py-5">
+
+            <div class="main-timeline">
+                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2024 - 2025</h3>
+                            <p class="mb-0">Grado Superior Diseño Aplicaciones Multiplataforma</p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#details2024">Saber más</a>
+                            <div id="details2024" class="collapse mt-3">
+                                <p>Desarrollar, implantar, documentar y mantener aplicaciones informáticas
+                                    multiplataforma, utilizando tecnologías y entornos de desarrollo específicos,
+                                    garantizando el acceso a los datos de forma segura y cumpliendo los criterios de
+                                    usabilidad y calidad exigidas en los estándares establecidos.</p>
+                                <p class="mt-3"><strong>Tecnologías utilizadas:</strong> <br> Microsoft, Eclipse,
+                                    Android Studio, MySQL, Oracle, PyCharm, Unity, MacOS, IntelliJ, Linux, Odoo</p>
+                                <a href="https://www.uax.com/titulaciones/tecnico-superior-en-desarrollo-de-aplicaciones-multiplataforma"
+                                    target="_blank" class="btn btn-light mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2023 - 2024</h3>
+                            <p class="mb-0">Swift Developer Program</p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#details2023">Saber más</a>
+                            <div id="details2023" class="collapse mt-3">
+                                <p>Fundamentos de la programación, la planificación de proyectos y el uso de Xcode con
+                                    GIT. Mejorarás la documentación con DooC y añadirás interactividad a tus apps con
+                                    SwiftUI. Dominarás Swift 5.9 y el manejo de tareas asincrónicas con Async/Await.
+                                    Desarrollarás apps para iOS y iPadOS con SwiftUI 5 y explorarás el desarrollo en
+                                    computación espacial con Apple Vision Pro y visionOS.</p>
+                                <p><strong>Tecnologías utilizadas:</strong> Swifit, SwiftUI, </p>
+                                <a href="https://acoding.academy/formaciones/swift-developer-program/" target="_blank"
+                                    class="btn btn-light mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2024</h3>
+                            <p class="mb-0"> 100 días de Swift - SwiftUI by Paul Huddson </p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#details2024-swift">Saber más</a>
+                            <div id="details2024-swift" class="collapse mt-3">
+                                <p>Estoy participando en el curso "100 días de SwiftUI" de Paul Hudson en Hacking with
+                                    Swift, una colección gratuita de videos, tutoriales y pruebas diseñada para enseñar
+                                    SwiftUI de manera efectiva. Este curso está actualizado para iOS 17 y requiere Xcode
+                                    15.3 o posterio</p>
+                                <p><strong>Tecnologías utilizadas:</strong> Swift, SwiftUI, Xcode, GIT</p>
+                                <a href="https://www.hackingwithswift.com/100/swiftui" target="_blank"
+                                    class="btn btn-light mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2024</h3>
+                            <p class="mb-0">Ruta estudio SwiftBeta</p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#detailSwiftBeta">Saber más</a>
+                            <div id="detailSwiftBeta" class="collapse mt-3">
+                                <p>Ruta programacion desde Basico con swift a Avanzado de swiftUI mas introduccion al
+                                    testing</p>
+                                <p><strong>Tecnologías utilizadas:</strong> Swift, SwiftUI</p>
+                                <a href="https://www.youtube.com/swiftbeta" target="_blank"
+                                    class="btn btn-light mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2023</h3>
+                            <p class="mb-0">Certificación IBM Web Development with Python</p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#ibmcertifacion">Saber más</a>
+                            <div id="ibmcertifacion" class="collapse mt-3">
+                                <p>Estoy participando en el curso "100 días de SwiftUI" de Paul Hudson en Hacking with
+                                    Swift, una colección gratuita de videos, tutoriales y pruebas diseñada para enseñar
+                                    SwiftUI de manera efectiva. Este curso está actualizado para iOS 17 y requiere Xcode
+                                    15.3 o posterio</p>
+                                <p>Este certificado demuestra la competencia en desarrollo web, programación en Python y
+                                    depuración. El titular es capaz de crear páginas web básicas, realizar control de
+                                    versiones con Git, programar en Python y automatizar pruebas.</p>
+                                <p><strong>Tecnologías utilizadas:</strong> Django, Git, GitHub, Python, Testing,
+                                    Unittest, VSCode.</p>
+                                <a href="https://www.credly.com/badges/5cea7f95-6b36-40fe-b91a-a3e6fdd06421/linked_in_profile"
+                                    target="_blank" class="btn btn-light mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body p-4">
+                            <h3>2022</h3>
+                            <p class="mb-0">Fullstack Developer en Code4Jobs</p>
+                            <a href="#" class="btn btn-outline-light mt-3" data-bs-toggle="collapse"
+                                data-bs-target="#details2022-code4jobs">Saber más</a>
+                            <div id="details2022-code4jobs" class="collapse mt-3">
+                                <p>Curso de desarrollo Fullstack JavaScript, centrado en el desarrollo de páginas web y
+                                    aplicaciones completas. Aprendí los fundamentos de programación en JavaScript, bases
+                                    de datos con MongoDB, desarrollo del lado del servidor con Node.js y Express, y
+                                    front-end con HTML, CSS y frameworks SPA como React y Angular.</p>
+                                <p><strong>Contenidos clave:</strong> Introducción a JavaScript, bases de datos con
+                                    MongoDB, desarrollo backend con Node.js y Express, desarrollo frontend con HTML,
+                                    CSS, y JavaScript, frameworks SPA (React y Angular), y metodologías ágiles (Scrum).
+                                </p>
+                                <p><strong>Tecnologías utilizadas:</strong> Agile, VSCode, CSS, Eclipse, APIs, MongoDB,
+                                    JSON, Git, React.js, HTML5, JavaScript, Clean Coding</p>
+                                <a href="http://www.code4jobs.com/" target="_blank" class="btn btn-light mt-2">Más
+                                    información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--  -->
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 Adolfo. Todos los derechos reservados.</p>
+            <div class="social-icons mt-2">
+                <a href="https://x.com/gliatem" target="_blank" class="me-2"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/gliadev" target="_blank" class="me-2"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/adolfo--gomez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        new WOW().init();
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar').addClass('scrolled');
+            } else {
+                $('.navbar').removeClass('scrolled');
+            }
+        });
+    </script>
 </body>
-</html>
 
+</html>
