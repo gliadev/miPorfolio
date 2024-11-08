@@ -136,6 +136,7 @@ body {
 .card .btn-primary {
   background-color: #ffcc00;
   border: none;
+  margin-top: 17px
 }
 
 .card .btn-primary:hover {
@@ -292,3 +293,44 @@ body {
 .animate__animated {
     visibility: visible !important;
 }
+
+
+/* iconos de las tecnologias */
+/* iconos de las tecnologias */
+.tech-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Estilos específicos para cada icono de Font Awesome */
+.tech-icons .fa-html5 {
+  color: #E34F26; /* Color oficial de HTML5 */
+}
+
+.tech-icons .fa-css3-alt {
+  color: #1572B6; /* Color oficial de CSS3 */
+}
+
+.tech-icons .fa-bootstrap {
+  color: #7952B3; /* Color oficial de Bootstrap */
+}
+
+.tech-icons .fa-js-square {
+  color: #F7DF1E; /* Color oficial de JavaScript */
+}
+
+/* Estilos generales para los iconos */
+.tech-icons i, .tech-icons .tech-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto hover para todos los iconos */
+.tech-icons i:hover, .tech-icons .tech-icon:hover {
+  transform: scale(1.2);
+}
+
+
