@@ -1,8 +1,13 @@
 /* General Styles */
+:root {
+  --ios-blue: #0A84FF;
+  --ios-blue-dark: #0060DF;
+  --ios-gray: #F2F2F7;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
-  background-color: #f2f2f7;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--ios-gray);
   color: #1c1c1e;
 }
 
@@ -28,12 +33,12 @@ body {
   text-align: center;
   margin-bottom: 40px;
   font-size: 2rem;
-  color: #007aff;
+  color: var(--ios-blue);
   text-transform: uppercase;
 }
 
 .footer {
-  background-color: #f2f2f7;
+  background-color: var(--ios-gray);
   color: #6e6e73;
   padding: 20px 0;
   text-align: center;
@@ -47,12 +52,12 @@ body {
 }
 
 .social-icons a:hover {
-  color: #007aff;
+  color: var(--ios-blue);
 }
 
 /* Skills Section */
 #skills {
-  background-color: #f2f2f7;
+  background-color: var(--ios-gray);
 }
 
 .skills-grid {
@@ -90,14 +95,15 @@ body {
 
 /* Button Styles */
 .btn-primary {
-  background-color: #007aff;
+  background-color: var(--ios-blue);
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn-primary:hover {
-  background-color: #0051a8;
+  background-color: var(--ios-blue-dark);
   transform: translateY(-2px);
 }
 
@@ -114,7 +120,7 @@ body {
 }
 
 .card-title {
-  color: #007aff;
+  color: var(--ios-blue);
 }
 
 .card img {
@@ -137,20 +143,21 @@ body {
 }
 
 .card .btn-primary {
-  background-color: #007aff;
+  background-color: var(--ios-blue);
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 17px;
 }
 
 .card .btn-primary:hover {
-  background-color: #0051a8;
+  background-color: var(--ios-blue-dark);
 }
 
 /* Timeline Styles */
 .main-timeline {
   position: relative;
-  background-color: #f2f2f7;
+  background-color: var(--ios-gray);
 }
 
 .main-timeline::after {
@@ -257,18 +264,18 @@ body {
 }
 
 .nav-tabs .nav-link.active {
-  background-color: #007aff;
+  background-color: var(--ios-blue);
   color: #fff;
 }
 
 .nav-tabs .nav-link {
-  color: #007aff;
+  color: var(--ios-blue);
   background-color: #fff;
   border: 1px solid #ccc;
 }
 
 .nav-tabs .nav-link:hover {
-  background-color: #0051a8;
+  background-color: var(--ios-blue-dark);
   color: #fff;
 }
 
@@ -278,21 +285,23 @@ body {
 
 /* Navbar Scroll Effect */
 .navbar {
-    background-color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     transition: background-color 0.5s ease;
 }
 
 .navbar .nav-link {
-    color: #007aff !important;
+    color: var(--ios-blue) !important;
 }
 
 .navbar .nav-link:hover {
-    color: #0051a8 !important;
+    color: var(--ios-blue-dark) !important;
 }
 
 .navbar.scrolled {
-    background-color: #f9f9f9 !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 /* Parallax Section */
