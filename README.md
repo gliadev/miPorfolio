@@ -1,6 +1,9 @@
 # 📱 Portafolio de Adolfo Gomez
 
 Bienvenido a mi portafolio de desarrollo móvil y web, con especial énfasis en el desarrollo de aplicaciones **iOS**. Este repositorio contiene el código fuente de mi portafolio personal, que incluye una colección de mis proyectos, habilidades técnicas y ejemplos de apps creadas para el ecosistema de Apple.
+Mi enfoque principal es el desarrollo nativo para iPhone y iPad. Aquí encontrarás proyectos escritos en **Swift** y **SwiftUI**, así como experimentos con las tecnologías más recientes de Apple.
+Cada aplicación busca aprovechar al máximo las capacidades de iOS, desde la integración con sus servicios hasta la creación de interfaces intuitivas.
+
 
 ## 🌐 Enlace al Portafolio
 
@@ -31,12 +34,12 @@ Si deseas clonar el repositorio y configurar el proyecto localmente, sigue estos
 
 1. **Clona el repositorio**:
     ```bash
-    git clone https://github.com/gliadev/miPorfolio.git
+   git clone https://github.com/gliadev/miPorfolio.git
     ```
 
 2. **Navega al directorio del proyecto**:
     ```bash
-    cd nombre-del-repositorio
+    cd miPorfolio
     ```
 
 3. **Abre `index.html` en tu navegador**:
