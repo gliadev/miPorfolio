@@ -1,15 +1,19 @@
 # Ignore system files
 .DS_Store
 
+# Ignore Node dependencies
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
 # Ignore compressed archives
 *.zip
 
 # Ignore source maps
 *.map
 
-# Logs and temporary files
-*.log
-*.tmp
-
-# Node dependencies
-node_modules/
+# Ignore build output
+build/
+dist/
