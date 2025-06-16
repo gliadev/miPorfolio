@@ -1,15 +1,15 @@
-# Temporary system files
+# Ignore system files
 .DS_Store
 
-# Archive files
+# Ignore compressed archives
 *.zip
 
-# Source maps
+# Ignore source maps
 *.map
 
 # Logs and temporary files
 *.log
 *.tmp
 
-# Node modules
+# Node dependencies
 node_modules/
