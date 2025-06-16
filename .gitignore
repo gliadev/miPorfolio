@@ -1,0 +1,15 @@
+# Temporary system files
+.DS_Store
+
+# Archive files
+*.zip
+
+# Source maps
+*.map
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Node modules
+node_modules/
