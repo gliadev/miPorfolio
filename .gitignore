@@ -1,0 +1,13 @@
+.DS_Store
+*.zip
+*.map
+node_modules/
+# Logs
+*.log
+npm-debug.log*
+# Build directories
+build/
+dist/
+# Temporary files
+.tmp/
+*.tmp
