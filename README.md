@@ -53,6 +53,10 @@ Si deseas personalizar este portafolio para tu uso personal, aquí hay algunas s
 ## 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes alguna mejora o sugerencia, por favor abre un issue o envía un pull request.
+## 📝 Licencia
+
+Este proyecto está disponible bajo la [Licencia MIT](LICENSE).
+
 
 ## 📞 Contacto
 
