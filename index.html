@@ -67,7 +67,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
-<body>
+<body class="dark-theme">
     <button id="theme-toggle" aria-label="Alternar modo oscuro/claro" class="top-toggle">🌓</button>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
@@ -97,14 +97,15 @@
       </div>
     </nav>
 
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="display-4 animate__animated animate__fadeInDown">Hola, soy Adolfo @gliaDev</h1>
-            <p class="lead animate__animated animate__fadeInUp">Desarrollador Junior iOS y Web</p>
-            <a href="https://www.linkedin.com/in/gliadev/" target="_blank"
-                class="btn btn-light btn-lg animate__animated animate__fadeInUp">Contáctame</a>
-        </div>
-    </header>
+    <header class="d-flex justify-content-between align-items-center p-3">
+    <div class="d-flex align-items-center">
+        <img src="img/faviconMio.jpg" alt="Logo" style="height: 40px; border-radius: 50%; margin-right: 10px;">
+        <h1 class="m-0">Adolfo Gómez</h1>
+    </div>
+  <div>
+    <button id="theme-toggle" class="btn btn-outline-light">🌙</button>
+  </div>
+</header>
     <!-- sobre mi -->
     <section id="about" class="section bg-dark text-white parallax">
         <div class="container">
@@ -813,6 +814,18 @@
                 $('.navbar').removeClass('scrolled');
             }
         });
+        
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+        body.classList.toggle('light-theme');
+        body.classList.toggle('dark-theme');
+
+        toggleButton.innerText = body.classList.contains('light-theme') ? '🌞' : '🌙';
+  });
+
+        
     </script>
 </body>
 
