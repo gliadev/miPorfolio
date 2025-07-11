@@ -788,6 +788,23 @@
       <p style="font-size: 1.5rem; max-width: 600px;">Estamos realizando tareas de mantenimiento para mejorar tu experiencia. Por favor, vuelve a intentarlo más tarde. ¡Gracias por tu paciencia!</p>
     </div>
 
+    </footer>
+
+    <button id="theme-toggle" aria-label="Alternar modo oscuro/claro">🌓</button>
+
+    <script>
+      const toggleBtn = document.getElementById('theme-toggle');
+      const currentTheme = localStorage.getItem('theme') || 'dark';
+      document.body.setAttribute('data-theme', currentTheme);
+
+      toggleBtn.addEventListener('click', () => {
+        const newTheme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    </script>
+
+
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script>
         new WOW().init();
