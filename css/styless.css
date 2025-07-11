@@ -1,0 +1,336 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: #ffcc00;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #000;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 120px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.skill-card h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #ffcc00;
+  border: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ffaa00;
+  transform: translateY(-2px);
+}
+
+/* Card Styles */
+.card {
+  background-color: #1e1e1e;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 34px;
+}
+
+.card-body {
+  color: #ffffff;
+}
+
+.card-title {
+  color: #ffcc00;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img-container {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-container img {
+  height: 100%;
+  width: auto;
+}
+
+.card .btn-primary {
+  background-color: #ffcc00;
+  border: none;
+  margin-top: 17px
+}
+
+.card .btn-primary:hover {
+  background-color: #ffaa00;
+}
+
+/* Timeline Styles */
+.main-timeline {
+  position: relative;
+  background-color: #000; 
+}
+
+.main-timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #f5df4d; 
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #f5df4d; 
+  border: 5px solid #f5df4d;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+.right {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -12px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-timeline::after {
+    left: 31px;
+  }
+
+  .timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 18px;
+  }
+
+  .left::before {
+    right: auto;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+
+/* Nav Tabs */
+.nav-tabs {
+  justify-content: center;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.nav-tabs .nav-link {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #444;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #ffaa00;
+  color: #fff;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+/* Navbar Scroll Effect */
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Parallax Section */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Animations */
+.animate__animated {
+    visibility: visible !important;
+}
+
+
+/* iconos de las tecnologias */
+/* iconos de las tecnologias */
+.tech-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Estilos específicos para cada icono de Font Awesome */
+.tech-icons .fa-html5 {
+  color: #E34F26; /* Color oficial de HTML5 */
+}
+
+.tech-icons .fa-css3-alt {
+  color: #1572B6; /* Color oficial de CSS3 */
+}
+
+.tech-icons .fa-bootstrap {
+  color: #7952B3; /* Color oficial de Bootstrap */
+}
+
+.tech-icons .fa-js-square {
+  color: #F7DF1E; /* Color oficial de JavaScript */
+}
+
+/* Estilos generales para los iconos */
+.tech-icons i, .tech-icons .tech-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Efecto hover para todos los iconos */
+.tech-icons i:hover, .tech-icons .tech-icon:hover {
+  transform: scale(1.2);
+}
+
+
