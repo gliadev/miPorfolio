@@ -10,8 +10,7 @@
     <link href="./css/animate.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/78279221?v=4" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 </head class="dark-theme">
 
 <!-- Splash Screen Renovación -->
@@ -632,7 +631,7 @@
         </div>
         <div class="container py-5">
             <div class="main-timeline">
-                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline left fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2024 - 2025</h3>
@@ -654,7 +653,7 @@
                 </div>
 
 
-                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline right fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2023 - 2024</h3>
@@ -675,7 +674,7 @@
                     </div>
                 </div>
 
-                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline left fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2024</h3>
@@ -695,7 +694,7 @@
                     </div>
                 </div>
 
-                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline right fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2024</h3>
@@ -713,7 +712,7 @@
                     </div>
                 </div>
 
-                <div class="timeline left wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline left fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2023</h3>
@@ -737,7 +736,7 @@
                     </div>
                 </div>
 
-                <div class="timeline right wow fadeInUp" data-wow-duration="1.5s">
+                <div class="timeline right fadeInUp">
                     <div class="card bg-secondary text-white">
                         <div class="card-body p-4">
                             <h3>2022</h3>
@@ -805,8 +804,6 @@
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script>
-        new WOW().init();
-
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('.navbar').addClass('scrolled');
@@ -819,13 +816,10 @@
         const body = document.body;
 
         toggleButton.addEventListener('click', () => {
-        body.classList.toggle('light-theme');
-        body.classList.toggle('dark-theme');
-
-        toggleButton.innerText = body.classList.contains('light-theme') ? '🌞' : '🌙';
-  });
-
-        
+            body.classList.toggle('light-theme');
+            body.classList.toggle('dark-theme');
+            toggleButton.innerText = body.classList.contains('light-theme') ? '🌞' : '🌙';
+        });
     </script>
 </body>
 
